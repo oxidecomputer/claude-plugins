@@ -1,0 +1,8 @@
+{
+  "name": "eng",
+  "description": "Skills for working with Oxide codebases",
+  "version": "0.1.0",
+  "author": {
+    "name": "Oxide Computer"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "oxide",
+  "owner": {
+    "name": "Oxide Computer"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for Oxide Computer development"
+  },
+  "plugins": [
+    {
+      "name": "eng",
+      "source": "./eng",
+      "description": "Skills for working with Oxide codebases"
+    }
+  ]
+}
