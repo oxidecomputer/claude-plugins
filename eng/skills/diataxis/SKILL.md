@@ -71,6 +71,10 @@ All paths are relative to `${CLAUDE_SKILL_DIR}/diataxis-documentation-framework/
 | Thinking about documentation quality | `quality.rst` |
 | Workflow: applying Diátaxis iteratively | `how-to-use-diataxis.rst` |
 
+**Do not read HTML files or images.** The canonical source material is the `.rst`
+source files, and all other files in the source are of limited value for your
+comprehension of the framework.
+
 ## Applying this skill
 
 When asked to write documentation:
