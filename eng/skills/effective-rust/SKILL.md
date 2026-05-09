@@ -1,6 +1,6 @@
 ---
 name: effective-rust
-description: Apply Oxide's "Effective Rust" patterns (RFD 643) to push runtime errors into compile-time errors and make remaining runtime errors explicit. Use whenever writing, reviewing, or refactoring Rust — especially when you see newtype-able primitives (raw u32/u64/String/Uuid for domain values), enums with shared variant data, `Option<T>` or `bool` fields with implicit semantics, builder-style APIs, manual SQL/serialization that names struct fields, `as` casts, subscripting (`vec[i]`, `map[k]`), bare `unwrap()`/`expect()`, or runtime validation that could be encoded in types. Use proactively on Rust review and authoring; do not wait for the user to name the RFD.
+description: Apply Oxide's RFD 643 "Effective Rust" patterns when writing or reviewing Rust: push runtime errors into the type system and make the remaining ones explicit.
 ---
 
 # Effective Rust (RFD 643)
